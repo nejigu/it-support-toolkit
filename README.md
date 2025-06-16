@@ -60,6 +60,49 @@ Run the script:
 python system_info_reporter.py   # or `python3` on macOS
 You’ll be prompted to save the output as a report file if desired.
 
+# `ip_dns_troubleshooter.py`
+
+# 📡 IP & DNS Troubleshooter
+
+A simple, cross-platform Python script to perform basic network diagnostics in one go.
+
+---
+
+## 🔍 What It Does
+
+- **Local IP Address**  
+  Retrieves the machine’s LAN IP (e.g. `192.168.x.x`).
+
+- **Public IP Address**  
+  Looks up your public Internet IP via `api.ipify.org`.  
+  If the `requests` library isn’t installed, the script will skip this step and note it in the output.
+
+- **DNS Resolution**  
+  Resolves a domain name (default: `www.google.com`) to its IP address.
+
+- **Default Gateway**  
+  Detects your network’s default gateway on Windows, macOS (Darwin) or Linux.
+
+---
+
+## 🖥️ Supported Platforms
+
+- ✅ Windows  
+- ✅ macOS (Darwin)  
+- ✅ Linux  
+
+---
+
+## ⚙️ Requirements
+
+- **Python 3**  
+- *(Optional)* `requests` library (for public IP).  
+  Install with:
+  ```bash
+  pip install requests
+python ip_dns_troubleshooter.py    # or `python3` on macOS/Linux
+
+
 👤 Author
 Created by Nahom Ejigu-Abegaz
 
