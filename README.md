@@ -29,6 +29,31 @@ The script automatically detects your operating system and uses the correct ping
 ```bash
 cd path/to/your/IT-Support-Toolkit
 
+---
+
+## 🖥️ Script: System Info Reporter (`system_info_reporter.py`)
+
+### 🔍 What It Does
+This script gathers key system information such as:
+- Hostname and IP address
+- Operating system and version
+- CPU, RAM, and disk usage
+
+It displays this info in a clean format and optionally saves it to a timestamped `.txt` report.
+
+### 🖥️ Works On
+- ✅ macOS
+- ✅ Windows
+- ✅ Linux
+
+### ⚙️ How to Use
+
+1. Install the required library:
+```bash
+pip install psutil
+
+python system_info_reporter.py or python3 on macOS
+
 ## 👤 Author
 
 Created by **Nahom Ejigu-Abegaz**  
