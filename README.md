@@ -27,7 +27,7 @@ The script automatically detects your operating system and uses the correct ping
 
 3. Navigate to the folder where the script is saved:
 ```bash
-cd path/to/your/IT-Support-Toolkit.
+cd path/to/your/IT-Support-Toolkit;
 
 
 ## 🖥️ Script: System Info Reporter (`system_info_reporter.py`)
